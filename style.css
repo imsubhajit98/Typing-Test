@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Alata', sans-serif;
+}
+
+.mainDiv{
+    /* width: 100%;
+    height: 100vh;
+    position: relative;
+    background: #2da1ee; */
+    
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: #2da1ee;
+    
+}
+
+.centerDiv{
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center; */
+    
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    text-align: center;
+    align-items: center;
+      
+
+}
+
+h1{
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+    text-shadow: 1px 2px 2px #155179;  /*horaizontal vertical blur color*/
+    font-size: 2.1rem;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+textarea{
+    background-color: #444;
+    box-shadow: 0px 0px 1px rgba(0,0,0,0.2);
+    border-radius: 10px 10px 0 0; /* left right buttom top*/
+    border: 5px solid #2a3d50;
+    color: white;
+    outline: none;
+    font-size: 1.3rem;
+    padding: 10px;
+    width: 900px;
+    height: 400px;
+    resize: none;
+}
+
+.mainBtn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 5px solid #2980b9;
+    background: #ecf0f1;
+    font-size: 1rem;
+    width: 100px;
+}
+
+h6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+    text-shadow: 1px 2px 2px #155179;  /*horaizontal vertical blur color*/
+}
+img{
+    margin-left: 10px;
+    border-radius: 3px;
+}
+
+
+@media screen and (max-width: 910px) {
+  textarea {
+    width: 800px;
+  }
+  .centerDiv h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 806px) {
+  textarea {
+    width: 750px;
+  }
+}
+@media screen and (max-width: 758px) {
+  textarea {
+    width: 700px;
+  }
+}
+@media screen and (max-width: 704px) {
+  textarea {
+    width: 650px;
+  }
+}
+@media screen and (max-width: 655px) {
+  textarea {
+    width: 600px;
+  }
+}
+@media screen and (max-width: 606px) {
+  textarea {
+    width: 550px;
+  }
+}
+@media screen and (max-width: 563px) {
+  textarea {
+    width: 500px;
+  }
+  .centerDiv h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 492px) {
+  textarea {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 449px) {
+  textarea {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 405px) {
+  textarea {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 350px) {
+  textarea {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 300px) {
+  textarea {
+    width: 250px;
+  }
+}
+
+
